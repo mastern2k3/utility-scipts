@@ -1,0 +1,4 @@
+#!/bin/bash
+
+grep -r -3 --color=always -e "^.*- \[ \].*$" ~/Dropbox/Projects | sed $'s/\r//' | less
+
